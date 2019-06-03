@@ -1,6 +1,6 @@
-These are test definitions. This is a title.
+Unicode combining double macron below converts to html <u> tags
 .
-The [markdown](//daringfireball.net/markdown) above should match the html below.
+S͟hayk͟h farrás͟h-bás͟hí Bárfurús͟h
 .
-<p>The <a href="//daringfireball.net/markdown">markdown</a> above should match the html below.</p>
+<p><u>Sh</u>ay<u>kh</u> farrá<u>sh</u>-bá<u>sh</u>í Bárfurú<u>sh</u></p>
 .
