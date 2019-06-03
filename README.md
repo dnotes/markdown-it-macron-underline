@@ -12,7 +12,6 @@ Unicode combining macrons are a good choice in cases where characters require an
 ## Usage
 
 ``` javascript
-let md = require('markdown-it')()
-  .use('markdown-it-macron-underline')
+let md = require('markdown-it')().use(require('markdown-it-macron-underline'))
 md.render('S͟hayk͟h')
 ```
