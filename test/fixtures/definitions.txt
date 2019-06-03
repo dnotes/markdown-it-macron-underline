@@ -1,6 +1,6 @@
-Unicode combining double macron below converts to html <u> tags
+Unicode combining macrons become html <u> tags in the beginning, middle, and end of words and text blocks
 .
-S͟hayk͟h farrás͟h-bás͟hí Bárfurús͟h
+S͟hayk͟h K͟hán farrás͟h-bás͟hí Bárfurús͟h
 .
-<p><u>Sh</u>ay<u>kh</u> farrá<u>sh</u>-bá<u>sh</u>í Bárfurú<u>sh</u></p>
+<p><u>Sh</u>ay<u>kh</u> <u>Kh</u>án farrá<u>sh</u>-bá<u>sh</u>í Bárfurú<u>sh</u></p>
 .
