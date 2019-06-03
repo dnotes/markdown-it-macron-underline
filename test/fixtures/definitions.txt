@@ -17,3 +17,19 @@ Macrons do not become <u> tags if they follow white space
 <p>͟ ͟hey ͟</p>
 <p>̱ ̱hey ̱</p>
 .
+
+Macrons are not replaced inside non-text inline elements
+.
+[link text](example.com "w͟haṯ?")
+![w͟haṯ?](image.jpg)
+.
+<p><a href="example.com" title="w͟haṯ?">link text</a>
+<img src="image.jpg" alt="w͟haṯ?"></p>
+.
+
+Macrons do not interfere with inline element delineators
+.
+[link text](example.com)͟ **strong text**͟ ***strong em**͟*
+.
+<p><a href="example.com">link text</a>͟ <strong>strong text</strong>͟ <em><strong>strong em</strong>͟</em></p>
+.
