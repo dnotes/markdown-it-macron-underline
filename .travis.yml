@@ -1,6 +1,14 @@
 language: node_js
 node_js:
- - '6'
- - node
+- '6'
+- node
 script: yarn lint && yarn coverage
 sudo: false
+deploy:
+  provider: npm
+  email: git@dnotes.net
+  api_key:
+    secure: FxFj8qP/e7j44t2l7rk+2z1FmAl9jRgc8t91hsWiCNgT4GGCjgjaHmRUXSzR/eAq+camsjsun3CrxmX+HzYakNRfE3R7uEGDp1uwR4D14jKhkuNsDhgUBbZ96NjpYVQx3NRHZk93/xR5UEm53ZR6fbRwdeh+8c2OhXuNjXhGKL+MW0D4GRcLyxhxJBAE9mc/tv9PU2cqJF0/4cgzG4WK7YKlzlVHPdCayrkNTNtiayLpD9XTIiFnbiMhCj7KOxHm1Px8dF/ZWulmNH8tUQp/O594REshhqBCkR3EXzMSpcn6n2N6Vr576VZ2YC0TqyBJsrY/AT2PiAgBGEjuE76puXLfk6712TpHGJAoX/FQ4h4FhYPAsvf1msarp4jMNvySp5+2Bp+UwX36QgmElzjNLsNzJ5nrEP8hoTwarpK+zLmaGIZHf7EcTHBbjLbI0hK/Vc+gFR11b9ecHYzut4Dn2Pwm2jmhuS2zRJRbRcQBkt3xDSZmsxHq6+wHtLZTQgaA10BrHEm3g9batqY/94EvIP5Kxyqcdca2fFC3hEaGZv1+iNLjqIUWMO12B7GiwQoueSY3Ev8u1R7ZmLdaWhbKZAdMkXOLK3k/YiSxfwgSjxK2PVUhQ4r80Pq16MS3iZqX25jHvd4yI+vLnRo6Bnac/TOptJs2/Ji3mR08AJdZQaw=
+  on:
+    tags: true
+    repo: dnotes/markdown-it-macron-underline

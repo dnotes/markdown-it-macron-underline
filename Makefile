@@ -53,7 +53,6 @@ publish:
 		exit 128 ; \
 		fi
 	git tag ${NPM_VERSION} && git push ${REMOTE_NAME} ${NPM_VERSION}
-	yarn publish ${GITHUB_PROJ}/tarball/${NPM_VERSION}
 
 .PHONY: publish browserify config
 .SILENT: config
