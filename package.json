@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-macron-underline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A markdown-it plugin for rendering unicode combining macrons below as underlined characters.",
   "main": "index.js",
   "scripts": {
